@@ -1,0 +1,214 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Resources <<
+    /Font <<
+      /F1 4 0 R
+      /F2 5 0 R
+      /F3 6 0 R
+    >>
+  >>
+  /Contents 7 0 R
+>>
+endobj
+
+4 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Courier
+>>
+endobj
+
+7 0 obj
+<<
+  /Length 8 0 R
+>>
+stream
+BT
+/F1 20 Tf
+50 740 Td
+(ISHA SONARIA) Tj
+/F2 10 Tf
+0 -16 Td
+(Cybersecurity Specialist | SOC Operations | Network Security | Threat Detection) Tj
+/F3 9 Tf
+0 -14 Td
+(Email: ishasonaria568@gmail.com | LinkedIn: linkedin.com/in/isha-sonaria) Tj
+0 -12 Td
+(GitHub: github.com/ishasonaria568-prog | TryHackMe: tryhackme.com/p/CipherGhost24) Tj
+
+/F1 12 Tf
+0 -24 Td
+(PROFESSIONAL SUMMARY) Tj
+/F2 9 Tf
+0 -14 Td
+(BCA graduate with hands-on training in SOC operations, network security, ethical hacking,) Tj
+0 -12 Td
+(digital forensics, and vulnerability assessment. Practical work includes Wazuh SIEM security) Tj
+0 -12 Td
+(monitoring, phishing URL detection with ML, email header forensics, and network reconnaissance.) Tj
+0 -12 Td
+(Targeting entry-level SOC Analyst and Cybersecurity Analyst opportunities.) Tj
+
+/F1 12 Tf
+0 -22 Td
+(PRACTICAL TRAINING & EXPERIENCE) Tj
+/F1 10 Tf
+0 -14 Td
+(SOC Operations Trainee - VRSecurity) Tj
+/F3 8 Tf
+0 -11 Td
+(Cyber Security Fundamentals Program | April 2026 - September 2026) Tj
+/F2 9 Tf
+0 -12 Td
+(- Monitored and triaged security events in Wazuh SIEM to detect malicious activity.) Tj
+0 -11 Td
+(- Prioritized and escalated critical network anomalies and suspicious host behaviors.) Tj
+0 -11 Td
+(- Conducted network reconnaissance and vulnerability assessments using Nmap, Nikto, Nuclei, and Wireshark.) Tj
+
+/F1 10 Tf
+0 -16 Td
+(Cybersecurity Lab Practitioner & CTF Competitor - TryHackMe) Tj
+/F2 9 Tf
+0 -12 Td
+(- Ranked in the Top 2% globally with 100+ completed hands-on investigation labs.) Tj
+0 -11 Td
+(- Achieved Rank 1 in Bronze, Silver, and Gold leagues.) Tj
+0 -11 Td
+(- Maintained a 100+ day streak with 20+ specialized security badges earned.) Tj
+
+/F1 12 Tf
+0 -22 Td
+(SECURITY RESEARCH & PROJECTS) Tj
+/F1 10 Tf
+0 -14 Td
+(PhishGuard ML | Machine Learning / Phishing Detection) Tj
+/F2 9 Tf
+0 -11 Td
+(Offline URL detector using Random Forest and 16 static features (Safe/Suspicious/Phishing).) Tj
+/F3 8 Tf
+0 -10 Td
+(Tech: Python, FastAPI, scikit-learn, React, SQLite, Docker | repo: github.com/ishasonaria568-prog/phishguard-ml) Tj
+
+/F1 10 Tf
+0 -14 Td
+(Email Header Forensics | Digital Forensics / Email Security) Tj
+/F2 9 Tf
+0 -11 Td
+(Forensic email analyzer verifying SPF, DKIM, DMARC, hops classification, and 0-100 risk score.) Tj
+/F3 8 Tf
+0 -10 Td
+(Tech: Go, JavaScript, REST API | repo: github.com/ishasonaria568-prog/email-header-forensics) Tj
+
+/F1 10 Tf
+0 -14 Td
+(SubScope | Network Reconnaissance / CLI) Tj
+/F2 9 Tf
+0 -11 Td
+(Multithreaded CLI tool for subdomain enumeration, DNS resolution, and attack-surface mapping.) Tj
+/F3 8 Tf
+0 -10 Td
+(Tech: Python, multithreading, CLI | repo: github.com/ishasonaria568-prog/SubScope) Tj
+
+/F1 10 Tf
+0 -14 Td
+(PDF Fortress | Document Security) Tj
+/F2 9 Tf
+0 -11 Td
+(PDF security utility featuring password encryption, permission controls, and integrity checks.) Tj
+/F3 8 Tf
+0 -10 Td
+(Tech: Python, CLI, GUI | repo: github.com/ishasonaria568-prog/pdf-fortress) Tj
+
+/F1 12 Tf
+0 -22 Td
+(EDUCATION & CERTIFICATIONS) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Bachelor of Computer Applications (BCA) - CGPA: 8.30 / 10.00 | Bhakta Kavi Narsinh Mehta University) Tj
+/F2 8.5 Tf
+0 -11 Td
+(Graduation Period: 2023 - 2026 | Sem 1 Rank 1) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Certifications: CSFP - VRSecurity (ID-VRS-008, Grand Master) | Hackviser CORE Foundations) Tj
+/F2 8.5 Tf
+0 -11 Td
+(Public verification: vrsecurity.in/CERT/ID-VRS-007.pdf) Tj
+
+/F1 12 Tf
+0 -20 Td
+(TECHNICAL SKILLS) Tj
+/F2 8.5 Tf
+0 -12 Td
+(SOC & Defense: Wazuh SIEM, Alert Triage, Incident Response, Traffic Analysis, Email Forensics, VAPT, IOCs) Tj
+0 -11 Td
+(Tools: Wireshark, Nmap, Burp Suite, Metasploit, SQLmap, Nikto, Nuclei, WPScan, Hydra, Kali Linux) Tj
+0 -11 Td
+(Networking: TCP/IP, OSI, DNS, DHCP, HTTP/HTTPS, SSH, FTP, Subnetting, Port Scanning) Tj
+0 -11 Td
+(Programming: Python, Go, Bash, PowerShell, C, C++, Java, JavaScript, PHP) Tj
+ET
+endstream
+endobj
+
+8 0 obj
+2920
+endobj
+
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000275 00000 n 
+0000000354 00000 n 
+0000000429 00000 n 
+0000000502 00000 n 
+0000003500 00000 n 
+trailer
+<<
+  /Size 9
+  /Root 1 0 R
+>>
+startxref
+3522
+%%EOF
