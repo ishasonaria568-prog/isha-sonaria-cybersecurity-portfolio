@@ -1,0 +1,277 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Exact Reference Tokens from nowshirwan.me */
+    --ds-bg: #0b100e;
+    --ds-card: #121a15;
+    --ds-card-alt: #101a13;
+    --ds-card-raised: #15221b;
+    --ds-ink: #eef2ef;
+    --ds-ink-2: #a1aaa5;
+    --ds-ink-3: #73897b;
+    --ds-ink-4: #98b6a3;
+    --ds-hairline: #28352e;
+    --ds-hairline-strong: #304336;
+    --ds-hairline-card: #2b3b30;
+    --ds-teal: #b3f5c5;
+    --ds-teal-glow: rgba(179, 245, 197, 0.16);
+
+    --font-sans: Arial, Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--ds-bg);
+  }
+
+  body {
+    background-color: var(--ds-bg);
+    color: var(--ds-ink);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--ds-ink);
+    font-weight: 700;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Reference Eyebrow with Pulsing Dot */
+.eyebrow {
+  font: 11px/1.6 var(--font-mono);
+  letter-spacing: 1.7px;
+  color: var(--ds-teal);
+  text-transform: uppercase;
+}
+
+.eyebrow .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--ds-teal);
+  margin-right: 8px;
+  box-shadow: 0 0 10px var(--ds-teal);
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+}
+
+/* Reference Alias Bar */
+.alias {
+  font: 10px/1.8 var(--font-mono);
+  color: #939e96;
+  letter-spacing: 1px;
+  margin: 25px 0 10px;
+}
+
+.alias strong {
+  color: #d2d9d5;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Reference Lede Paragraph */
+.lede {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #a4b0a8;
+  max-width: 520px;
+  margin: 0 0 27px;
+}
+
+/* Reference Primary Button */
+.primary-btn {
+  background-color: var(--ds-teal);
+  color: #0b100e !important;
+  padding: 13px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 44px;
+  transition: transform 0.28s ease, background-color 0.28s ease, box-shadow 0.28s ease;
+  box-shadow: 0 4px 14px rgba(179, 245, 197, 0.22);
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  background-color: #c9fad7;
+  box-shadow: 0 6px 20px rgba(179, 245, 197, 0.35);
+}
+
+/* Reference Secondary Download Link */
+.resume-download {
+  color: var(--ds-teal);
+  font-size: 13px;
+  font-family: var(--font-mono);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(179, 245, 197, 0.4);
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
+}
+
+.resume-download:hover {
+  text-decoration-color: var(--ds-teal);
+  color: #ffffff;
+}
+
+/* Reference Section Number Header */
+.section-num {
+  color: #73897b;
+  font: 11px var(--font-mono);
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+/* Reference Project Card */
+.project-card {
+  padding: 24px;
+  background-color: var(--ds-card);
+  border: 1px solid var(--ds-hairline-card);
+  border-radius: 9px;
+  transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
+}
+
+.project-card:hover {
+  border-color: var(--ds-teal);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--ds-ink-4);
+  font: 10px var(--font-mono);
+  letter-spacing: 0.7px;
+  margin-bottom: 12px;
+}
+
+.project-tag {
+  background-color: #18231e;
+  color: var(--ds-teal);
+  border: 1px solid var(--ds-hairline);
+  font: 11px var(--font-mono);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Reference Cert Card */
+.cert-card {
+  border: 1px solid var(--ds-hairline-strong);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: var(--ds-card-alt);
+  transition: border-color 0.28s ease, transform 0.28s ease;
+}
+
+.cert-card:hover {
+  border-color: var(--ds-teal);
+  transform: translateY(-2px);
+}
+
+.cert-mark {
+  color: var(--ds-teal);
+  border: 1px solid #446650;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(179, 245, 197, 0.05);
+  flex-shrink: 0;
+}
+
+.cert-tag {
+  font: 9px var(--font-mono);
+  color: #8ea596;
+  border: 1px solid #3d5646;
+  padding: 5px 8px;
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+/* Reference Skills Column */
+.skills-col {
+  border-left: 1px solid #3a5042;
+  padding-left: 20px;
+}
+
+/* Reference Contact Email */
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  font-size: clamp(20px, 4vw, 34px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ds-ink);
+  border-bottom: 2px solid var(--ds-teal);
+  padding-bottom: 6px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-email:hover {
+  color: var(--ds-teal);
+}
+
+/* Dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b100e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #28352e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a5042;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

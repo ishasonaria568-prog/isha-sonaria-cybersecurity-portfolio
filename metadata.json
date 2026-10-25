@@ -1,0 +1,8 @@
+{
+  "name": "Remix Isha Sonaria – Cybersecurity Portfolio \u0026 Threat Archive",
+  "description": "Personal cybersecurity portfolio of Isha Sonaria, focused on SOC operations, network security, ethical hacking, digital forensics, and security tool development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
